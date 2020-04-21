@@ -1,0 +1,321 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-color: #f8f9fa;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url('image/overlay-bg.jpg');
+
+}
+.parent
+{
+    background-image: url('image/p.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 600px;
+    margin-bottom: 5rem;
+
+}
+.def
+{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.def_child
+{
+    text-align: center;
+    width: 50%;
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    opacity: 0;
+    transition: 1s opacity, 1s transform;
+}
+.def:hover .def_child
+{
+    opacity: 1;
+    transform: scale(1.1,1.1);
+}
+.btn
+{
+    width: 7rem;
+    position: relative;
+    margin: auto;
+    bottom: 1rem;
+}
+.Morgan_Freeman
+{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+.adress
+{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    text-align: center;
+}
+.adress2
+{
+    margin: auto;
+    background-color: blueviolet;
+    width: 3rem;
+    height: 0.5rem;
+}
+.parent3
+{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content:space-around;
+}
+.child3
+{
+    width: 33.3333%;
+    padding: 1rem;
+}
+.PORTFOLIO
+{
+    width: 100%;
+    transition: 1s opacity, 1s transform;
+}
+span
+{
+    color: blueviolet;
+    font-size: 1.2rem;
+}
+.parent2
+{
+    padding: 1rem;
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    background-color: #f8f9fa;
+}
+.child2
+{
+    text-align: center;
+    width: 33.3333%;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin: 0.5rem;
+}
+.logo
+{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    background-color: white;
+    border: solid 0.5rem rgb(124, 31, 211);
+    margin: auto;
+    margin-bottom: 1rem;
+}
+i
+{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 1.5rem;
+    color: black;
+}
+.parent4
+{
+    background-image: url('image/counters-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100%;
+    padding: 5rem;
+    background-color: transparent;
+    margin-top: 3rem;
+}
+.parent4-2
+{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    position: relative;
+    opacity: 0;
+    transition: 2s opacity;
+
+}
+.parent4:hover .parent4-2
+{
+    opacity: 1;
+}
+.child4
+{
+    text-align: center;
+    width: 25%;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin: 0.5rem;
+}
+.logo2
+{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    background-color: transparent;
+    border: solid 0.5rem white;
+    margin: auto;
+    margin-bottom: 1rem;s
+}
+.progress
+{
+    margin-bottom: 0.5rem;
+}
+.nav-child
+{
+    float: left;
+    width: 50%;
+    padding:1rem 1rem 0 1rem ;
+    color:blue;
+    transition: 1.5s color;
+}
+.nav-container
+{
+    width: 100%;
+    overflow: auto;
+    background-color:white;
+    transition: 1.5s background-color;
+    position: fixed;
+    z-index: 11111111;
+}
+ul li
+{
+    display: inline-block;
+    padding: 1rem 1rem 0 1rem ;
+}
+ul
+{
+    text-align: center;
+}
+.parent:hover .nav-container
+{
+    background-color:transparent;
+}
+.parent:hover .nav-child
+{
+    color: white;
+}
+.parent5
+{
+    background-color: white;
+    width: 100%;
+    padding: 5rem;
+}
+.container-footer
+{
+    width: 85%;
+    margin: auto;
+    padding: 3rem;
+    background-color: white;
+    border: solid 0.1rem rgb(231, 210, 248);
+}
+.line
+{
+    margin-top: 0.3rem;
+    width: 7rem;
+    height: 0.2rem;
+    background-color: rgb(161, 79, 238);
+}
+.x
+{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.y
+{
+    width: 25%;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+.z
+{
+    width: 100%;
+    border-radius: 50%;
+    border: solid 0.1rem rgb(64, 64, 218);
+}
+.child3:hover .PORTFOLIO
+{
+    opacity: 0.7;
+    transform: scale(1.1,1.1);
+}
+.logo:hover .icon
+{
+    opacity: 0.9;
+    transform: scale(1.2,1.2);
+    color:white;
+}
+.z:hover .icon
+{
+    transform: scale(1.2,1.2);
+    color:blue;
+}
+.icon
+{
+    transition: 1s transform;
+}
+.icon-parent:hover .icon
+{
+    transform: scale(1.1,1.1);
+}
+.logo:hover
+{
+    border: solid 0.5rem rgb(5, 5, 5);
+    background-color: rgb(73, 73, 230)
+}
+.a
+{
+    width: 20%;
+    position: fixed;
+    top: 100px;
+    right: -270px;
+    transition: 2s right;
+    z-index: 555;
+}
+.b
+{
+    position: relative;
+    right:70px;
+    top: 100px;
+    text-align:right;
+    width: 25%;
+    height: 30px;
+
+}
+.c
+{
+    background-color: beige;
+    margin: left;
+    text-align: left;
+    width: 75%;
+    transition: 3s 1s transform;
+    border-radius: 0.5rem;
+    border: solid 0.1rem rgb(138, 12, 241);
+}
+.form
+{
+    padding: 2rem;
+}
+.a:hover
+{
+    right: -52px;
+    transform: scale(1.1,1.1);
+}
+.a:hover .c
+{
+    transform: scale(1.1,1.1);
+}
