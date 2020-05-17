@@ -7,25 +7,43 @@
 
     </head>
     <body>
+        <nav class="navbar navbar-expand-sm navbar-light fixed-top">
+            <a class=" navbar-brand wrapper" href="#"><h3>Devfolio</h3></a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+
+                    <li class="nav-item active">
+                        <a id="home"  class=" nav-link wrapper" href="#"><h6>Home</h6> <span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a id="about" class=" nav-link wrapper" href="#"><h6>About</h6> <span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a id = "services" class=" nav-link wrapper" href="#"><h6>Services</h6> <span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a id="work"  class=" nav-link wrapper" href="#"><h6>work</h6> <span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a id="blog" class=" nav-link wrapper" href="#"><h6>Blog</h6> <span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a id="contact" class=" nav-link wrapper" href="#"><h6>Contact</h6> <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
           <div class="parent">
-                <nav class="nav-container">
-                    <div class="nav-child">
-                        <a><h3>Devfolio</h3></a>
-                    </div>
-        
-                    <div class="nav-child">
-                        <ul>
-                            <li class="nav-logo"><h6>HOME</h6></li>
-                            <li class="nav-logo"><h6>ABOUT</h6></li>
-                            <li class="nav-logo"><h6>SERVICES</h6></li>
-                            <li class="nav-logo"><h6>WORK</h6></li>
-                            <li class="nav-logo"><h6>BLOG</h6></li>
-                            <li class="nav-logo"><h6>CONTACT</h6></li>
-        
-        
-                        </ul>
-                    </div>
-                </nav>
                 <div class="def">
                     <div class="def_child">
                         <h1 style="font-size: 100px;">web designer</h1>
@@ -34,7 +52,7 @@
                 </div>
           </div>
 
-        <div class="row w-75 m-auto p-5 bg-white">
+        <div id="section2" class="row w-75 m-auto p-5 bg-white">
             <div class="col-6">
                 <div class="row w-100 m-auto py-3">
                     <div class="col-6 text-left icon-parent">
@@ -205,7 +223,7 @@
             </div>
         </div>
 
-        <div class="adress">
+        <div id="section4" class="adress">
             <h1>PORTFOLIO</h1>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
             <div class="adress2"></div>
@@ -284,7 +302,7 @@
           </a>
         </div>
 
-        <div class="adress">
+        <div id="section5" class="adress">
             <h1>BLOG</h1>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
             <div class="adress2"></div>
@@ -333,7 +351,7 @@
                 </div>
             </div>
         </div>
-        <div class="parent5">
+        <div id="section6" class="parent5">
             <div class="container-footer">
                 <div class="row">
                   <div class="col">
@@ -351,7 +369,7 @@
                             <div class="form-group">
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
                             </div>
-                            <button style="width: 12rem; height: 3.5rem; border-radius: 2rem; background-color: rgb(89, 89, 184); color: white; font-size: large;">Send Message</button>
+                            <button class="btn btn-info mt-3">send Message</button>
                         </form>
                   </div>
                   <div class="col">
@@ -394,21 +412,26 @@
                 <div class="c">
                     <form class="form">
                         <label>Email</label>
-                        <input style="width: 100%; border-radius:0.3rem ;" placeholder="">
+                        <input class="form-control" placeholder="">
                         <label>password</label>
-                        <input style="width: 100%; border-radius:0.3rem ;" placeholder="">
+                        <input class="form-control" placeholder="">
                         <div class="form-check">
                             <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label" for="exampleCheck1">Remember pw</label>
+                            <label class="form-check-label" for="exampleCheck1">Remember me</label>
                           </div>
-                          <button style="background-color: rgb(72, 72, 238); border-radius: 0.3rem; color: white; width: 5rem; ">sign in</button>
+                          <button class="btn btn-info mt-4">sign in</button>
                     </form>
                 </div>
             </div>
 
+            <div id="arrow">
+                <i id="icon" class="fa fa-arrow-up" aria-hidden="true"></i>
+            </div>
 
-        <script src="js/jquery-3.4.1.slim.min.js"></script>
+
+        <script src="js/jquery-3.5.0.min.js"></script>
         <script src="js/popper.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
     </body>
 </html>
